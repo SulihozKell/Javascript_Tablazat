@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Film</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="egesz">
+            <input type="text" name="nev" id="nev"><label for="nev">Név</label><br />
+            <input type="text" name="rendezo" id="rendezo"><label for="rendezo">Rendező</label><br />
+            <input type="number" name="kiadasi_ev" id="kiadasi_ev"><label for="kiadasi_ev">Kiadási Év</label><br />
+            <input type="submit" name="hozzaad" value="Hozzáad" onclick="hozzaad();">
+            <div id="ures"></div>
+            <!-- RÉGI
+            <br />
+            <input type="submit" name="listazas" value="Listázás" onclick="listazas();">-->
+            
+            <table id="tablazat"></table>
+        </div>
+    </body>
+</html>

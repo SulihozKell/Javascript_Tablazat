@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(rgba(52, 73, 80, 0.97), rgba(22, 27, 27, 0.97));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: larger;
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+.egesz {
+    width: 1000px;
+    background-image: linear-gradient(rgba(13, 71, 88, 0.97), rgba(8, 65, 65, 0.97));
+    margin: 70px auto 50px auto;
+    padding: 15px;
+}
+label {
+    padding-left: 1em;
+}
+input {
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+input[type=submit] {
+    padding: 0.5em;
+}
+table {
+    width: 100%;
+    margin: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+tr:nth-child(even) {
+    background-color: #0e6262;
+}
+tr:hover {
+    background-color: #32b8b8;
+}
+tr, th, td {
+    border: solid rgb(8, 49, 124) 2px;
+}
+th {
+    width: 33%;
+    cursor: pointer;
+}
+td {
+    max-width: 100px;
+}
+#ures {
+    color: red;
+    margin-bottom: 0.3em;
+}
+@media screen and (max-width: 1059px) {
+    .egesz {
+        width: 97%;
+        background-image: linear-gradient(rgba(13, 71, 88, 0.97), rgba(8, 65, 65, 0.97));
+        margin: 20px 0 0 0;
+        padding: 10px 1.5% 15px 1.5%;
+    }
+}
